@@ -1,0 +1,11 @@
+.timer {
+    text-align: center;
+    color: #1D2C65;
+    border: 5px solid #6B5B9A;
+    font-size:5vw;
+    background-color: #FEB873;
+}
+body {
+    /*FEB873 EB998B B088AD 6B5B9A 1D2C65*/
+    background-color: #EB998B;
+}
