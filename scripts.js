@@ -12,5 +12,6 @@ let timer = setInterval(()=>{
     let seconds = Math.floor(distance / 1000);
 
     const htmlTimer = document.getElementById('timer');
-    htmlTimer.textContent = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+
+    htmlTimer.textContent = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
 }, 1000);
