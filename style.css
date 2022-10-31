@@ -12,3 +12,14 @@ body {
     /*FEB873 EB998B B088AD 6B5B9A 1D2C65*/
     background-color: #EB998B;
 }
+h1 {
+    color: #1D2C65;
+}
+footer > p {
+    color: #6B5B9A;
+}
+.container {
+    justify-content: center;
+    min-height: 10vh;
+    display: flex;
+}
