@@ -1,4 +1,4 @@
-let theMostDesirableDate = new Date("Dec 29, 2022 07:00:00").getTime();
+let theMostDesirableDate = new Date("Feb 23, 2023 07:00:00").getTime();
 
 let timer = setInterval(()=>{
     let now = new Date().getTime();
@@ -15,3 +15,15 @@ let timer = setInterval(()=>{
 
     htmlTimer.textContent = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
 }, 1000);
+
+function changeTheFooter(state) {
+    console.log('state', state);
+    let footerP = document.getElementById("firk");
+
+    if (state === 0) {
+        footerP.innerText = 'I love you, Lemmi';
+    }
+    else {
+        footerP.innerText = '@firk-mirk production';
+    }
+}
