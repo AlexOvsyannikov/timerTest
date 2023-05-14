@@ -1,4 +1,4 @@
-let theMostDesirableDate = new Date("Feb 23, 2023 07:00:00").getTime();
+let theMostDesirableDate = new Date("Jul 3, 2023 18:00:00").getTime();
 
 let timer = setInterval(()=>{
     let now = new Date().getTime();
